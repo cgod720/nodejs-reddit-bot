@@ -4,7 +4,8 @@
   "description": "Reddit bot that responds to \"kingslayer\"",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start"
   },
   "author": "C Los",
   "license": "ISC",
