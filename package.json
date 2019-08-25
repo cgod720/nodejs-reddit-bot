@@ -1,0 +1,16 @@
+{
+  "name": "kingslayer",
+  "version": "1.0.0",
+  "description": "Reddit bot that responds to \"kingslayer\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "C Los",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "snoostorm": "^1.1.2",
+    "snoowrap": "^1.19.0"
+  }
+}
