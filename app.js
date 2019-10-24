@@ -1,4 +1,4 @@
-const { CommentStream} = require('snoostorm')
+const { CommentStream } = require('snoostorm')
 
 require('dotenv').config();
 
@@ -6,7 +6,7 @@ const Snoowrap = require('snoowrap');
 const Snoostorm = require('snoostorm');
 
 const r = new Snoowrap({
-  userAgent: 'SerJamieLannisterBotv1',
+  userAgent: 'SerJaimeLannisterBotv1',
   clientId: process.env.CLIENT_ID,
   clientSecret: process.env.CLIENT_SECRET,
   username: process.env.REDDIT_USER,
@@ -15,7 +15,7 @@ const r = new Snoowrap({
 
 
 const streamOpts = {
-  subreddit: 'freefolk',
+  subreddit: 'oldfreefolk',
   limit: 25
 };
 
@@ -32,7 +32,7 @@ const quotes = ['There are no men like me. Only me.',
                 'Fighting bravely for a losing cause is admirable. Fighting for a winning cause is far more rewarding.',
                 'The Lannisters send their regards.',
                 'The gods won\'t mind. They\'ve spilled more blood than all of us combined.',
-                'If I was a father to any of my children the would be stoned in the streets.',
+                'If I was a father to any of my children they would be stoned in the streets.',
                 'I\'ll go to war with him if I have to. They can write a ballad about us, "The War For Cersei\'s C-nt"',
                 'As long as I\'m better than everyone else, I suppose it doesn\'t matter.',
                 'The King shits and the Hand wipes',
@@ -61,11 +61,11 @@ const quotes = ['There are no men like me. Only me.',
                 'Cersei once called me "the stupidest Lannister".',
                 'Let me thank you ahead of time for guarding us all from the perils beyond the wall.',
                 'The dark is coming for all of us. Why cry about it?',
-                'If your Gods are real and if they are just, wh is the world so full of injustice?',
+                'If your Gods are real and if they are just, why is the world so full of injustice?',
                 'I\'ll send for your baby boy. And I\'ll launch him into Riverrun with a catapult. Because you don\'t matter to me.',
                 'How can I protect the King when I can hardly wipe my own arse?',
                 'There are always lessons in failures',
-                'As I said, the sirge is under my command. If that\'s not to your liking, go home.',
+                'As I said, the siege is under my command. If that\'s not to your liking, go home.',
                 'Now let\'s say I threatened to hit you unless you shut your mouth, but you kept talking. What do you think I\'d do?',
                 'My training has proved that I can\'t beat a stable boy with my left hand.',
                 'If you were to marry Cersei, she\'d murder you in your sleep.',
